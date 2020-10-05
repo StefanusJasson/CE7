@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.header-left {
+    color: rebeccapurple;
+    float: left;
+}
+
+.header-left a {
+    padding: 0px 30px;
+    line-height: 60px;
+    display: block;
+    font-size: 24px;
+}
+
+.header-right {
+    background-color: rgba(255, 255, 255, 0.3);
+    float: right;
+}
+
+.header-right a {
+    padding: 0 30px;
+    line-height: 60px;
+    display: block;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top {
+    background-image: url("https://images.freeimages.com/images/large-previews/1f6/books-4-1421569.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    padding: 200px 0px 50px 0px;
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 50px;
+}
