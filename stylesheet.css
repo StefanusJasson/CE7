@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: rgba(120, 189, 216, 0.9);
+    background-color: #BCD4E6;
     height: 60px;
     width: 100%;
     position: fixed;
@@ -57,4 +57,60 @@ header {
 .sign-up:hover {
     background-color: rgb(59, 59, 175);
     color: white;
+}
+
+.top {
+    background-image: url("https://images.freeimages.com/images/large-previews/1f6/books-4-1421569.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    padding: 200px 0px 50px 0px;
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 50px;
+}
+
+
+
+.grid-container {
+    background-color: #BCD4E6;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grid-item {
+    margin: 200px 100px;
+
+
+}
+
+.grid-item .search {
+    width: 80%;
+    height: 6%;
+    background-color: #ffffff;
+    opacity: 1px;
+    box-shadow: 80px 0px 160px 4px #000000;
+    border-radius: 30px;
+
+
+
+}
+
+.search p {
+    padding: 15px 20px;
+}
+
+.grid-container .signup {
+    color: #457B9D;
+    text-decoration: none;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+.grid-item img {
+    height: 80%;
+    margin-top: -100px;
 }
