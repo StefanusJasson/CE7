@@ -4,4 +4,20 @@
     .header-right {
         display: none;
     }
+
+    .grid-container {
+        width: 50%;
+    }
+
+    .grid-item .search {
+        width: 50%;
+        height: 50%;
+
+
+    }
+
+    .search p {
+        font-size: 1px;
+        padding: 15px 20px;
+    }
 }
