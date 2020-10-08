@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(120, 189, 216, 0.9);
     height: 60px;
     width: 100%;
     position: fixed;
@@ -11,7 +11,6 @@ header {
 }
 
 .header-left {
-    color: rebeccapurple;
     float: left;
 }
 
@@ -23,18 +22,32 @@ header {
 }
 
 .header-right {
-    background-color: rgba(255, 255, 255, 0.3);
     float: right;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
-.header-right a {
-    padding: 0 30px;
-    line-height: 60px;
+.header-menu {
+    padding: 0 20px;
+    margin-left: 5px;
+    line-height: 40px;
+    float: left;
     display: block;
+    transition: 0.3s;
 }
 
-.header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+.header-menu:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sign-up {
+    background-color: rgba(77, 77, 223);
+    color: white;
+}
+
+.sign-up:hover {
+    background-color: rgb(59, 59, 175);
+    color: white;
 }
 
 .top {
