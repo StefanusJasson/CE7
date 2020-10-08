@@ -21,6 +21,15 @@ header {
     font-size: 24px;
 }
 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    margin-right: 5px;
+    display: none;
+}
+
 .header-right {
     float: right;
     padding-top: 10px;
@@ -48,16 +57,4 @@ header {
 .sign-up:hover {
     background-color: rgb(59, 59, 175);
     color: white;
-}
-
-.top {
-    background-image: url("https://images.freeimages.com/images/large-previews/1f6/books-4-1421569.jpg");
-    background-size: cover;
-    color: whitesmoke;
-    padding: 200px 0px 50px 0px;
-    text-align: center;
-}
-
-.top h1 {
-    font-size: 50px;
 }
