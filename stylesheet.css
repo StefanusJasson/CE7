@@ -21,6 +21,14 @@ header {
     font-size: 24px;
 }
 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 15px 15px 0px 0px;
+    display: none;
+}
+
 .header-right {
     float: right;
     padding-top: 10px;
@@ -42,6 +50,7 @@ header {
 
 .sign-up {
     background-color: rgba(77, 77, 223);
+    border-radius: 15px;
     color: white;
 }
 

@@ -20,4 +20,7 @@
         font-size: 1px;
         padding: 15px 20px;
     }
+    .menu-icon {
+        display: block;
+    }
 }
