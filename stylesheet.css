@@ -261,3 +261,24 @@ header {
 .answer-text {
     padding-bottom: 20px;
 }
+
+.contact-form {
+    padding-top: 10px;
+    padding-left: 100px;
+    background-color: #bdd5f5;
+}
+
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: white;
+    color: black;
+}
