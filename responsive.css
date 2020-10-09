@@ -1,26 +1,63 @@
-@media all and (max-width: 1000px) {}
+@media all and (max-width: 1000px) {
+    .heading {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .question-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .answer-text {
+        line-height: normal;
+    }
+    .head-title {
+        line-height: normal;
+    }
+    .head-title h3 {
+        margin-bottom: 10px;
+    }
+    .head-title h4 {
+        margin-top: 10px;
+    }
+}
 
 @media all and (max-width: 670px) {
     .header-right {
         display: none;
     }
-
     .grid-container {
         width: 50%;
     }
-
     .grid-item .search {
         width: 50%;
         height: 50%;
-
-
     }
-
     .search p {
         font-size: 1px;
         padding: 15px 20px;
     }
     .menu-icon {
         display: block;
+    }
+    .container {
+        height: auto;
+    }
+    .content-list {
+        padding-bottom: 20px;
+    }
+    .jobs {
+        width: auto;
+        display: block;
+    }
+    .job {
+        padding-top: 20px;
+    }
+    .question-wrapper {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .head-title {
+        line-height: normal;
     }
 }
