@@ -282,3 +282,16 @@ textarea {
     background-color: white;
     color: black;
 }
+
+.footer-item {
+    float: left;
+    margin-right: 40px;
+    padding: 10px 0px 0px 150px;
+}
+
+.container p {
+    font-size: 13px;
+    color: chocolate;
+    margin-top: -10px;
+    text-decoration: none;
+}
